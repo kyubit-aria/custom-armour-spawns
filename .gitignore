@@ -20,7 +20,6 @@
 *.rar
 
 # gradle
-gradle/
 .gradle/
 .idea/
 run/
