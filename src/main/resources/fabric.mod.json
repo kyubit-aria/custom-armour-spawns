@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "mobarmourcustom",
+	"version": "${version}",
+	"name": "MobArmourCustom",
+	"description": "Custom mob armour!",
+	"authors": [
+		"Kyubit"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/mobarmourcustom/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"org.kyubit.ArmourCustomSpawns"
+		],
+		"client": [
+			"org.kyubit.ArmourCustomSpawnsClient"
+		]
+	},
+	"mixins": [
+		"mobarmourcustom.mixins.json",
+		{
+			"config": "mobarmourcustom.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
