@@ -81,7 +81,7 @@ public class Armourer {
             ArmourCustomSpawns.LOGGER.info(String.valueOf(entity.getHealth()));
         } else
         {
-          System.out.println("Client side");
+            System.out.println("Client side");
         }
     }
 

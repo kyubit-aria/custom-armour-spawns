@@ -2,7 +2,6 @@ package org.kyubit.mob;
 
 import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
-import net.minecraft.entity.attribute.EntityAttributes;
 
 public class ArmourModifier {
     private String modifierName;

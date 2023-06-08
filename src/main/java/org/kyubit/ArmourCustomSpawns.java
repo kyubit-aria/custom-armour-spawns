@@ -18,7 +18,6 @@ public class ArmourCustomSpawns implements ModInitializer {
 
 
 
-
 	@Override
 	public void onInitialize() {
         ServerLifecycleEvents.SERVER_STARTED.register(server -> {
